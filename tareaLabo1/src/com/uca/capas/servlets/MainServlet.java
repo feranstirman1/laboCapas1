@@ -37,7 +37,7 @@ public class MainServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		//doGet(request, response);
+		
 		
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
@@ -56,6 +56,7 @@ public class MainServlet extends HttpServlet {
 		}
 		out.println("</body>");
 		out.println("</html>");
+		
 	}
 
 }
